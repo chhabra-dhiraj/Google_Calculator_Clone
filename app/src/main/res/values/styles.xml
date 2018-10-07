@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="buttonNum">
+
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:background">#424242</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="buttonOpe">
+
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">#616161</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="buttonSli">
+
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">#03A9F4</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+</resources>

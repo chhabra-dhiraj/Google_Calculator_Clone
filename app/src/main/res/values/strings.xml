@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">CalculatorLatest</string>
+    <string name="header_name">""</string>
+    <string-array name="spinnerItems">
+        <item>History</item>
+        <item>Send Feedback</item>
+        <item>Help</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxWidth="0dp"
+    android:layout_weight="3"
+    android:columnCount="3"
+    android:rowCount="5">
+
+    <Button android:text="INV"
+        style="@style/buttonSli" />
+    <Button android:text="RAD"
+        style="@style/buttonSli"/>
+    <Button android:text="%"
+        style="@style/buttonSli"/>
+    <Button android:text="sin"
+        style="@style/buttonSli"/>
+    <Button android:text="cos"
+        style="@style/buttonSli"/>
+    <Button android:text="tan"
+        style="@style/buttonSli"/>
+    <Button android:text="ln"
+        style="@style/buttonSli"/>
+    <Button android:text="log"
+        style="@style/buttonSli"/>
+    <Button android:text="!"
+        style="@style/buttonSli"/>
+    <Button android:text="pi"
+        style="@style/buttonSli"/>
+    <Button android:text="e"
+        style="@style/buttonSli"/>
+    <Button android:text="^"
+        style="@style/buttonSli"/>
+    <Button android:text="("
+        style="@style/buttonSli"/>
+    <Button android:text=")"
+        style="@style/buttonSli"/>
+    <Button android:text="root"
+        style="@style/buttonSli"/>
+
+</GridLayout>
