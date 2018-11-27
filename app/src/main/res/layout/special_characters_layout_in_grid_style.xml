@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_inv"
+            style="@style/buttonSli"
+            android:text="INV" />
+
+        <Button
+            android:id="@+id/btn_rad"
+            style="@style/buttonSli"
+            android:text="RAD" />
+
+        <Button
+            android:id="@+id/btn_percentage"
+            style="@style/buttonSli"
+            android:text="&#37;" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sin"
+            style="@style/buttonSli"
+            android:text="sin" />
+
+        <Button
+            android:id="@+id/btn_cos"
+            style="@style/buttonSli"
+            android:text="cos" />
+
+        <Button
+            android:id="@+id/btn_tan"
+            style="@style/buttonSli"
+            android:text="tan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ln"
+            style="@style/buttonSli"
+            android:text="ln" />
+
+        <Button
+            android:id="@+id/btn_log"
+            style="@style/buttonSli"
+            android:text="log" />
+
+        <Button
+            android:id="@+id/btn_root"
+            style="@style/buttonSli"
+            android:text="&#8730;" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_pie"
+            style="@style/buttonSli"
+            android:text="&#928;" />
+
+        <Button
+            android:id="@+id/btn_epsilon"
+            style="@style/buttonSli"
+            android:text="e" />
+
+        <Button
+            android:id="@+id/btn_power"
+            style="@style/buttonSli"
+            android:text="pow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_left_par"
+            style="@style/buttonSli"
+            android:text="&#40;" />
+
+        <Button
+            android:id="@+id/btn_right_par"
+            style="@style/buttonSli"
+            android:text="&#41;" />
+
+        <Button
+            android:id="@+id/btn_exc"
+            style="@style/buttonSli"
+            android:text="&#33;" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

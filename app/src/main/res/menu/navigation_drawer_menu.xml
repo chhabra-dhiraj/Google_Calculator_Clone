@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/my_clients"
+        android:title="My Clients" />
+
+    <item
+        android:id="@+id/my_tasks"
+        android:title="My Tasks" />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logou"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logo"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/log"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/lo"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/l"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logd"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logout1"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logout2"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/logout3"
+        android:title="Logout" />
+
+</menu>

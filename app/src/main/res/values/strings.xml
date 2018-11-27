@@ -2,6 +2,8 @@
 
     <string name="app_name">CalculatorLatest</string>
     <string name="header_name">""</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
     <string-array name="spinnerItems">
         <item>History</item>
         <item>Send Feedback</item>

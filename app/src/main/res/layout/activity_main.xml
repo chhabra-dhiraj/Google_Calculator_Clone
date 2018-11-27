@@ -27,32 +27,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="angleChange"
                 android:text="DEG"
                 android:textColor="@android:color/darker_gray" />
 
-            <EditText
-                android:id="@+id/user_input"
+            <com.example.dhirajchhabraeng.calculatorlatest.NoKeyBoardEditText
+                android:id="@+id/user_input_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
+                android:cursorVisible="true"
                 android:gravity="end"
-                android:inputType="number"
-                android:text="     "
-                android:textSize="60sp" />
+                android:textSize="@dimen/display_digit_size_normal" />
 
-            <View
+            <TextView
+                android:id="@+id/output_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
-                android:background="@android:color/white" />
+                android:background="@android:color/white"
+                android:textSize="40sp"
+                android:gravity="end" />
 
         </LinearLayout>
 
     </android.support.v7.widget.Toolbar>
 
-    <android.support.v4.widget.DrawerLayout
-        android:id="@+id/calculator_buttons_drawer"
+    <android.support.v4.widget.SlidingPaneLayout
+        android:id="@+id/sliding_pane_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -61,127 +62,30 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <GridLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="6"
-                android:columnCount="3">
+            <include layout="@layout/numbers_layout_in_grid_style" />
 
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="7" />
+            <include layout="@layout/operations_layout_in_grid_style" />
 
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="8" />
+        </LinearLayout>
 
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="9" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="4" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="5" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="6" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="1" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="2" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="3" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:text="." />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:onClick="inputDisplay"
-                    android:text="0" />
-
-                <Button
-                    style="@style/buttonNum"
-                    android:text="=" />
-
-            </GridLayout>
-
-            <GridLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:columnCount="1"
-                android:rowCount="5">
-
-                <Button
-                    style="@style/buttonOpe"
-                    android:onClick="characterIncrementer"
-                    android:text="DEL" />
-
-                <Button
-                    style="@style/buttonOpe"
-                    android:onClick="characterIncrementer"
-                    android:text="/" />
-
-                <Button
-                    style="@style/buttonOpe"
-                    android:onClick="characterIncrementer"
-                    android:text="*" />
-
-                <Button
-                    style="@style/buttonOpe"
-                    android:onClick="inputDisplay"
-                    android:text="-" />
-
-                <Button
-                    style="@style/buttonOpe"
-                    android:onClick="inputDisplay"
-                    android:text="+" />
-
-            </GridLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="72dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/drag_view"
-                android:layout_width="0dp"
+                android:layout_width="20dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.5"
                 android:background="#03A9F4"
                 android:gravity="center"
                 android:text="&lt;"
                 android:textAppearance="?android:textAppearanceMedium" />
 
+            <include layout="@layout/special_characters_layout_in_grid_style" />
+
         </LinearLayout>
 
-        <android.support.design.widget.NavigationView
-            android:id="@+id/nv"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            app:headerLayout="@layout/slider_layout">
-
-        </android.support.design.widget.NavigationView>
-
-    </android.support.v4.widget.DrawerLayout>
+    </android.support.v4.widget.SlidingPaneLayout>
 
 </LinearLayout>

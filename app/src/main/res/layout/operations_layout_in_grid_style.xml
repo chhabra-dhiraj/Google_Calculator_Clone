@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/buttonOpe"
+        android:text="DEL" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        style="@style/buttonOpe"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        style="@style/buttonOpe"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btn_subtract"
+        style="@style/buttonOpe"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_add"
+        style="@style/buttonOpe"
+        android:text="+" />
+
+</LinearLayout>
