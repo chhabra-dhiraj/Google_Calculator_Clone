@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (v.getId() != R.id.btn_equals && v.getId() != R.id.btn_delete) {
             stringBuilder.append(((Button) v).getText().toString());
-            userInputEditText.setText(stringBuilder.toString());
+         k   userInputEditText.setText(stringBuilder.toString());
 
         } else if (v.getId() == R.id.btn_delete && stringBuilder.length() != 0) {
             stringBuilder.deleteCharAt(stringBuilder.length() - 1);
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     replace("e", "e").
                     replace("pow", "x");
             Log.e(TAG, "onClick: " + inputString);
-            String outputString = "" + evaluate(inputString);
+            String outputString = "" + outputFunction(inputString);
             outputTextView.setText(outputString);
         }
 
@@ -278,7 +278,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         return 0;
     }
-
 
     public String outputFunction(String outputString) {
 
