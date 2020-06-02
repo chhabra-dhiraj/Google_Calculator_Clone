@@ -7,4 +7,4 @@ This is the clone for the Google Calculator on Android Marshmallow Platform
 <p align="center">
   <img src="/app/screenshots/2.png?raw=true">
 </p>
-<img align="right" src="/app/screenshots/3.png?raw=true">
+<img align="left" src="/app/screenshots/3.png?raw=true">
